@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FM Radio Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        #player {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FM Radio Player</h1>
+    <div id="player">
+        <audio id="audioPlayer" controls>
+            Your browser does not support the audio element.
+        </audio>
+        <br>
+        <button id="playPauseBtn">Play</button>
+        <button id="nextBtn">Next</button>
+    </div>
+    <script src="songpicker.js"></script>
+</body>
+</html>
