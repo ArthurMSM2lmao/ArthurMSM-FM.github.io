@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let playedSongs = [];
 
     // Fetch the list of songs from the GitHub repository
-    fetch('https://api.github.com/repos/your-username/your-repository/contents/Just%20Dance%203%20Soundtrack')
+    fetch('https://api.github.com/repos/ArthurMSM2lmao/ArthurMSM-FM.github.io/contents/Songs')
         .then(response => response.json())
         .then(data => {
             songs = data.filter(item => item.name.endsWith('.mp3')).map(item => item.name);
